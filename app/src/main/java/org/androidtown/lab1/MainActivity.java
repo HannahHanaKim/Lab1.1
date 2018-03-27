@@ -25,14 +25,14 @@ public class MainActivity extends AppCompatActivity {
 
     private void changeImage() {
         if (imageIndex == 0) {  //when img1 is visible
-            imageView.setVisibility(View.VISIBLE);
-            imageView2.setVisibility(View.INVISIBLE);
+            imageView.setVisibility(View.INVISIBLE);
+            imageView2.setVisibility(View.VISIBLE);
 
             imageIndex = 1;
         }
         else if (imageIndex == 1) {  //when img2 is visible
-            imageView.setVisibility(View.INVISIBLE);
-            imageView2.setVisibility(View.VISIBLE);
+            imageView.setVisibility(View.VISIBLE);
+            imageView2.setVisibility(View.INVISIBLE);
 
             imageIndex = 0;
         }
